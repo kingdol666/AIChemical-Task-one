@@ -1,0 +1,90 @@
+# Data (large files)
+data/
+
+# Claude settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch
+*.pt
+*.pth
+*.onnx
+
+# Cache
+cache/
+*.cache
+
+# Checkpoints
+checkpoints/
+
+# Outputs
+outputs/
+
+# Logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+
+# Client results
+client/results/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Generated images (keep prompts, skip images)
+garden-gpt-image-2/image/
+
+# Training output logs
+train_output.log
+train_full_output.log
